@@ -1,0 +1,9 @@
+<p>child-component works!</p>
+<button (click)="toggleDestroy()">TOGGLE DESTROY</button>
+
+<app-child2-component *ngIf="destroy"></app-child2-component>
+
+<p>child works!</p>
+<h3>Child Component</h3>
+<p>TICKS: {{ lifecycleTicks }}</p>
+<p>DATA: {{ data }}</p>
